@@ -1,3 +1,6 @@
+
+---
+
 `df.toPandas().T.head(50)` converts a **PySpark DataFrame (`df`)** to a **Pandas DataFrame**, transposes it (`.T`), and then displays the **first 50 rows** of the transposed DataFrame.
 
 ### Explanation:
@@ -13,4 +16,4 @@
 - **Memory Intensive**: PySpark DataFrames are designed for distributed processing, while Pandas loads everything into memory. Ensure the dataset fits in memory before conversion.
 - **Performance Impact**: If the DataFrame is large, this conversion can be slow.
 
-Would you like help optimizing this operation, such as filtering data before converting? 🚀
+---
